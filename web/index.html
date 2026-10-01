@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>AutoFlow-AI | Autonomous Workflow Dashboard</title>
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div class="background-glow glow-1"></div>
+  <div class="background-glow glow-2"></div>
+
+  <div class="app-container">
+    <!-- Header -->
+    <header class="navbar">
+      <div class="brand">
+        <div class="brand-logo">⚡</div>
+        <div class="brand-info">
+          <h1>AutoFlow<span class="gradient-text">.AI</span></h1>
+          <p>Autonomous Workflow & Intelligence Engine</p>
+        </div>
+      </div>
+      <div class="header-badges">
+        <span class="badge status-live"><span class="dot"></span> Engine Online</span>
+        <a href="https://github.com/sakilahammed-dev" target="_blank" class="badge creator-badge">
+          Created by <strong>Sakil Ahammed</strong> ↗
+        </a>
+      </div>
+    </header>
+
+    <!-- Key Metrics Grid -->
+    <section class="metrics-grid">
+      <div class="card metric-card">
+        <div class="metric-icon">🤖</div>
+        <div class="metric-data">
+          <h3>Active AI Agents</h3>
+          <p class="metric-value" id="val-agents">4 Units</p>
+          <span class="metric-sub text-success">↑ Autonomous Reasoning</span>
+        </div>
+      </div>
+
+      <div class="card metric-card">
+        <div class="metric-icon">⚡</div>
+        <div class="metric-data">
+          <h3>Automated Actions</h3>
+          <p class="metric-value" id="val-actions">2,840+</p>
+          <span class="metric-sub text-info">Zero Human Latency</span>
+        </div>
+      </div>
+
+      <div class="card metric-card">
+        <div class="metric-icon">🎯</div>
+        <div class="metric-data">
+          <h3>Execution Accuracy</h3>
+          <p class="metric-value" id="val-accuracy">99.9%</p>
+          <span class="metric-sub text-success">Self-Healing Pipeline</span>
+        </div>
+      </div>
+
+      <div class="card metric-card">
+        <div class="metric-icon">⏱️</div>
+        <div class="metric-data">
+          <h3>Avg Cycle Time</h3>
+          <p class="metric-value" id="val-latency">148 ms</p>
+          <span class="metric-sub text-warning">Ultra-Low Overhead</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- Interactive Workflow Canvas -->
+    <section class="card workflow-section">
+      <div class="section-header">
+        <div>
+          <h2>Autonomous Pipeline Visualizer</h2>
+          <p>Live state representation of connected workflow triggers and AI reasoning nodes.</p>
+        </div>
+        <button id="btn-trigger" class="btn-primary">
+          <span class="btn-icon">▶</span> Trigger Autonomous Run
+        </button>
+      </div>
+
+      <div class="pipeline-canvas">
+        <div class="pipeline-node" id="node-1">
+          <div class="node-icon">📥</div>
+          <h4>1. Webhook Intake</h4>
+          <span class="node-status">Standby</span>
+        </div>
+        <div class="pipeline-connector" id="conn-1"></div>
+
+        <div class="pipeline-node" id="node-2">
+          <div class="node-icon">🧠</div>
+          <h4>2. AI Context Synthesis</h4>
+          <span class="node-status">Standby</span>
+        </div>
+        <div class="pipeline-connector" id="conn-2"></div>
+
+        <div class="pipeline-node" id="node-3">
+          <div class="node-icon">⚙️</div>
+          <h4>3. Logic Execution</h4>
+          <span class="node-status">Standby</span>
+        </div>
+        <div class="pipeline-connector" id="conn-3"></div>
+
+        <div class="pipeline-node" id="node-4">
+          <div class="node-icon">🚀</div>
+          <h4>4. Global Dispatch</h4>
+          <span class="node-status">Standby</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- Two-column bottom section: Live Terminal & Agent Specs -->
+    <div class="grid-two-col">
+      <!-- Live Console -->
+      <section class="card terminal-card">
+        <div class="terminal-header">
+          <div class="window-dots">
+            <span class="dot red"></span>
+            <span class="dot yellow"></span>
+            <span class="dot green"></span>
+          </div>
+          <span class="terminal-title">agent-telemetry.log</span>
+          <button id="btn-clear-logs" class="btn-text">Clear</button>
+        </div>
+        <div class="terminal-body" id="terminal-output">
+          <div class="log-line text-muted">[SYSTEM] AutoFlow-AI Core v1.0.0 initialized.</div>
+          <div class="log-line text-muted">[AGENT] Listening for external trigger events...</div>
+        </div>
+      </section>
+
+      <!-- System Architecture & Agent Registry -->
+      <section class="card specs-card">
+        <h3>Architectural Specs</h3>
+        <p class="specs-intro">Designed for production-grade scale by <strong>Sakil Ahammed</strong>.</p>
+        
+        <ul class="specs-list">
+          <li>
+            <strong>Core Logic:</strong> Python 3.12+ (Type-annotated, modular pipeline)
+          </li>
+          <li>
+            <strong>Frontend Interface:</strong> Modern Glassmorphic Web Architecture
+          </li>
+          <li>
+            <strong>Concurrency:</strong> Async event dispatching & task queuing
+          </li>
+          <li>
+            <strong>Resilience:</strong> Automatic retry & self-healing context fallbacks
+          </li>
+        </ul>
+
+        <div class="cta-box">
+          <p>Explore source code & clone repository:</p>
+          <a href="https://github.com/sakilahammed-dev/autoflow-ai" target="_blank" class="btn-secondary">
+            View on GitHub ↗
+          </a>
+        </div>
+      </section>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <p>© 2026 AutoFlow-AI. Engineered with passion by <a href="https://github.com/sakilahammed-dev" target="_blank">Sakil Ahammed</a>.</p>
+    </footer>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
