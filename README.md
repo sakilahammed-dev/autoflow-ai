@@ -1,4 +1,4 @@
-# ⚡ AutoFlow-AI: Autonomous Workflow & Intelligence Engine
+# AutoFlow-AI: Autonomous Workflow & Intelligence Engine
 
 <div align="center">
 
@@ -12,32 +12,32 @@
   <strong>An enterprise-grade, autonomous AI workflow and task automation engine engineered for zero-latency execution.</strong>
 </p>
 
-[Explore Web UI](#-interactive-web-dashboard) • [Quick Start](#-quick-start) • [Architecture](#-system-architecture) • [Author](#-author--connect)
+[Executive Overview](#executive-overview) • [System Architecture](#system-architecture) • [Project Structure](#project-structure) • [Quick Start](#quick-start) • [Tech Stack](#tech-stack--standards) • [Author](#author--connect)
 
 </div>
 
 ---
 
-## 🌟 Executive Overview
+## Executive Overview
 
 **AutoFlow-AI** is a high-performance orchestration framework designed to eliminate manual business bottlenecks. Built with **First-Principles Software Engineering**, it bridges modern full-stack web dashboards with resilient Python autonomous agents capable of task planning, data synthesis, and automated API dispatches.
 
 ### Why AutoFlow-AI?
-- 🤖 **Autonomous Agent Reasoning:** Self-decomposing workflows using multi-stage planning logic.
-- ⚡ **Zero-Latency Automation:** Automated data filtering, payload transformation, and webhook routing.
-- 🎨 **Glassmorphic Web Dashboard:** Cyberpunk-inspired real-time telemetry visualizer built with modern CSS & vanilla JS.
-- 🛡️ **Resilient Architecture:** Modular structure, cross-platform UTF-8 terminal logging, and graceful error boundaries.
+- **Autonomous Agent Reasoning:** Self-decomposing workflows using multi-stage planning logic.
+- **Zero-Latency Automation:** Automated data filtering, payload transformation, and webhook routing.
+- **Glassmorphic Web Dashboard:** Real-time telemetry visualizer built with modern CSS and vanilla JavaScript.
+- **Resilient Architecture:** Modular structure, cross-platform UTF-8 terminal logging, and graceful error boundaries.
 
 ---
 
-## 🏗️ System Architecture
+## System Architecture
 
 ```mermaid
 flowchart LR
-    A["📥 External Trigger / Webhook"] --> B["🧠 AutoFlow Agent (Task Planner)"]
-    B --> C["⚙️ Execution Engine (Data Cleansing)"]
-    C --> D["📊 AI Context & Report Synthesizer"]
-    D --> E["🚀 Automated Webhook Dispatcher"]
+    A["External Trigger / Webhook"] --> B["AutoFlow Agent (Task Planner)"]
+    B --> C["Execution Engine (Data Cleansing)"]
+    C --> D["AI Context & Report Synthesizer"]
+    D --> E["Automated Webhook Dispatcher"]
     
     style A fill:#1e293b,stroke:#00f2fe,stroke-width:2px,color:#fff
     style B fill:#1e293b,stroke:#7928ca,stroke-width:2px,color:#fff
@@ -48,7 +48,7 @@ flowchart LR
 
 ---
 
-## 📂 Project Structure
+## Project Structure
 
 ```text
 autoflow-ai/
@@ -69,7 +69,7 @@ autoflow-ai/
 
 ---
 
-## 🚀 Quick Start
+## Quick Start
 
 ### 1. Run via CLI (Python Engine)
 Clone the repository and launch the demo workflow engine:
@@ -89,7 +89,7 @@ Start-Process "web/index.html"
 
 ---
 
-## 💻 Tech Stack & Standards
+## Tech Stack & Standards
 
 | Layer | Technologies & Standards |
 | :--- | :--- |
@@ -100,14 +100,14 @@ Start-Process "web/index.html"
 
 ---
 
-## 👨‍💻 Author & Connect
+## Author & Connect
 
 **Sakil Ahammed**  
-*AI & Automation Specialist | Software Developer | Full-Stack Web Developer*
+*Full-Stack AI & Automation Architect*
 
-- 🌐 **GitHub:** [@sakilahammed-dev](https://github.com/sakilahammed-dev)
-- 📧 **Email:** [sakilahammed114@gmail.com](mailto:sakilahammed114@gmail.com)
-- 💼 **Portfolio / Inquiries:** Open to global remote software engineering & AI automation opportunities.
+- **GitHub:** [@sakilahammed-dev](https://github.com/sakilahammed-dev)
+- **Email:** [sakilahammed114@gmail.com](mailto:sakilahammed114@gmail.com)
+- **Inquiries & Contracts:** Open to global remote software engineering & AI automation opportunities.
 
 ---
 
