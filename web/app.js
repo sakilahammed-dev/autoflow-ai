@@ -42,7 +42,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
   triggerBtn.addEventListener('click', async () => {
     triggerBtn.disabled = true;
-    triggerBtn.innerHTML = '<span class="btn-icon">⚡</span> Running Autonomous Pipeline...';
+    triggerBtn.innerHTML = 'Running Autonomous Pipeline...';
 
     // Reset nodes
     nodes.forEach(n => {
@@ -65,14 +65,14 @@ document.addEventListener('DOMContentLoaded', () => {
     // Stage 4
     await executeStage(3, 'Dispatching secure webhooks & telemetry ack...', 'Dispatched (200 OK)');
 
-    appendLog('✓ Workflow Pipeline concluded with 0ms human intervention.', 'success');
+    appendLog('Workflow Pipeline concluded with 0ms human intervention.', 'success');
 
     // Increment metrics
     executionCount += 1;
     actionsCounter.innerText = executionCount.toLocaleString() + '+';
 
     triggerBtn.disabled = false;
-    triggerBtn.innerHTML = '<span class="btn-icon">▶</span> Trigger Autonomous Run';
+    triggerBtn.innerHTML = 'Trigger Autonomous Run';
   });
 
   function executeStage(index, logMessage, statusText) {
