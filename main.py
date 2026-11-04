@@ -57,7 +57,7 @@ def run_demo():
         for insight in result["final_report"]["key_insights"]:
             print(f"  • {insight}")
     print("=" * 65)
-    print("[✓] To launch the interactive Web Dashboard, open 'web/index.html' in your browser.\n")
+    print("[INFO] To launch the interactive Web Dashboard, open 'web/index.html' in your browser.\n")
 
 if __name__ == "__main__":
     run_demo()
